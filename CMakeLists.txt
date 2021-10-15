@@ -3,4 +3,4 @@ project(sebesta_parser_clion)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(sebesta_parser_clion main.cpp)
+add_executable(sebesta_parser_clion parser.c front.c)
